@@ -36,7 +36,7 @@ namespace LastFM
                     var artist = track?["artist"]?["#text"]?.ToString();
                     var trackName = track?["name"]?.ToString();
 
-                    Console.WriteLine($"{username}'s latest stuff is: '");
+                    Console.WriteLine($"{username}'s latest stuff is: ");
                     Console.WriteLine($"{trackName} by {artist}");
                 }
             }
